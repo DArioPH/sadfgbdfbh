@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seminuevos - Royale Motors</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      /* SOLO se aplica a esta página */
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .finance-options {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+      }
+      .option-card {
+        flex: 1 1 300px;
+        max-width: 350px;
+      }
+      .intro {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+    </style>
+  </head>
+  <body class="page-seminuevos">
+    <header class="site-header">
+      <div class="container header-content">
+        <div class="header-top">
+          <a href="index.html">
+            <img src="logoRoyale.png" alt="Logo Royale" class="logo" />
+          </a>
+        </div>
+        <nav class="main-nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="HíbridosyElectricos.html" class="nav-link"
+                >Coches Eléctricos e Híbridos</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a href="compra-financiacion.html" class="nav-link"
+                >Compra y Financiación</a
+              >
+              <div class="dropdown-menu">
+                <a href="financiacion.html">Financiación</a>
+                <a href="ofertas.html">Ofertas Especiales</a>
+                <a href="seminuevos.html" class="active">Seminuevos</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Servicios y Accesorios</a>
+            </li>
+            <li class="nav-item">
+              <a href="Motor&Tecnología.html" class="nav-link"
+                >Motor & Tecnología</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="financing-section">
+      <div class="container">
+        <section class="intro">
+          <h1>Seminuevos Certificados</h1>
+          <p>
+            Vehículos seleccionados, revisados y certificados por nuestros
+            expertos. Garantía y tranquilidad al mejor precio.
+          </p>
+        </section>
+
+        <section class="finance-options">
+          <div class="option-card">
+            <img src="bmwserie1.jpg" alt="BMW Serie 1 2021" />
+            <h2>BMW Serie 1 2021</h2>
+            <p>Solo 25.000 km · Garantía de 2 años · Motor gasolina</p>
+            <a href="#" class="btn-ver-mas">Ver detalles</a>
+          </div>
+
+          <div class="option-card">
+            <img src="peugeot.webp" alt="Peugeot 2008 2020" />
+            <h2>Peugeot 2008 2020</h2>
+            <p>35.000 km · Diésel · Ideal para ciudad y carretera</p>
+            <a href="#" class="btn-ver-mas">Ver detalles</a>
+          </div>
+
+          <div class="option-card">
+            <img src="corolla2022.jpg" alt="Toyota Corolla Hybrid 2022" />
+            <h2>Toyota Corolla Hybrid 2022</h2>
+            <p>18.000 km · Híbrido · Etiqueta ECO</p>
+            <a href="#" class="btn-ver-mas">Ver detalles</a>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
